@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -10,29 +11,29 @@
 <body>
 
     <div class="container">
-      <!--fenêtre d'accueil (démarrage du quiz)--> 
+      <!--fenÃªtre d'accueil (dÃ©marrage du quiz)--> 
       <div class="screen active" id="start-screen">
         
         <h1> Quiz Time</h1>
-         <p> Met à l'épreuve tes connaissances avec ce quiz! </p>
-        <button id="start-btn">Démarrer</button>
+         <p> Met Ã  l'Ã©preuve tes connaissances avec ce quiz! </p>
+        <button id="start-btn">DÃ©marrer</button>
        
        </div>
 
-       <!--fenêtre du questionnaire-->
+       <!--fenÃªtre du questionnaire-->
         <div class="screen" id="quiz-screen">
          
           <div class="quiz-header">
            <h2 id="question-text"> Question goes here </h2>
            <div class="quiz-info">
-             <p> Question <span id="current-question">1</span> sur <span id="max"> 8 </span> </p> <!--span pour cibler le numéro de la question sur cette ligne afin de la faireévoluer apres (la rendre dynamique, question 1, question 2...) -->
+             <p> Question <span id="current-question">1</span> sur <span id="max"> 8 </span> </p> <!--span pour cibler le numÃ©ro de la question sur cette ligne afin de la faireÃ©voluer apres (la rendre dynamique, question 1, question 2...) -->
              <p> Score : <span id="score"> 0 </span> </p>
            </div>
          
           </div>
           
           <div id="answers-container" class="answers-container">
-            <!--Les bouttons de réponses seront insérés ici depuis le code js après-->            
+            <!--Les bouttons de rÃ©ponses seront insÃ©rÃ©s ici depuis le code js aprÃ¨s-->            
           
           </div>
 
@@ -44,13 +45,13 @@
        
         </div>
 
-       <!--fenêtre des résultats-->
+       <!--fenÃªtre des rÃ©sultats-->
        <div id="results-screen" class="screen">
 
-            <h1> Résultats </h1>
+            <h1> RÃ©sultats </h1>
             <div class="result-info">
                 <p> Tu as obtenu <span id="final-score"> 0 </span> sur <span id="max-score"> 8 </span></p>
-                <div id="result-message"> Félicitation! </div>
+                <div id="result-message"> FÃ©licitation! </div>
             </div>
             <button id="restart-btn"> Recommencer </button>   
        </div>
